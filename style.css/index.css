@@ -64,14 +64,18 @@
     display: flex;
     align-items: center;
     justify-content: center; 
-    background-color: black;
-    
+    background-blend-mode:darken;
+
     
 }
 .trip-menu{
-    border: 1px solid black;
+    border: 1px solid transparent;
     width: 65%;
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
 }
 .trip-menu h1{
     color: white;
@@ -79,11 +83,61 @@
     font-weight: 500;
 }
 .trip-search{
-    border: 1px solid yellow;
+    border: 1px solid transparent;
     width: 100%;
     height: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 0px;
+    background-color: white;
+    padding: 10px;
+}
+.trip-search div{
+    border: 1px solid rgb(231, 225, 225);
+    width: 15%;
+    height: 40px;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: left;
 }
 
+.trip-search div:nth-child(1){
+    width: 40%;
+}
+#location i,
+#check-in i,
+#check-out i{
+    width: 10%;
+    height: 98%;
+    display: block;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 15px;
+   font-weight: 600;
+}
+#location input,
+#check-in input,
+#check-out input{
+    width: 85%;
+    height: 98%;
+    border: 0px;
+} 
 
-
-
+#guest select,
+#search button{
+    width: 100%;
+    height: 98%;
+    border: 0px;
+}
+#search button{
+    background-color: rgb(6, 130, 179);
+    color: white;
+    transition: 0.5s;
+}
+#search button:hover{
+    background-color: rgb(3, 95, 131);
+}
