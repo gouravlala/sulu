@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.navbar{
+    border: 1px solid transparent;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(37, 36, 36);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   
+}
+.logo img{
+    width: 40%;
+    height: 30%;
+    padding-left: 15px;
+}
+.menu{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.menu-inr{
+    display: flex;  
+    align-items: baseline;  
+    gap: 3px;
+}
+.menu-inr h3{
+    font-weight: 400;
+}
+.menu i{
+    font-size:15px;
+    font-weight: 600;
+    transition: 0.03s;
+}
+.menu i:hover{
+    font-size:17px;
+    font-weight: 900;
+}
+
+
+
+/* .................... */
+
+
+.trip{
+    border: 1px solid black;
+    width: 100%;
+    height: 450px;
+    background-image: url("https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/Pimal2-1.2d5d237dbd32.jpg");
+    background-position: center;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: black;
+    
+    
+}
+.trip-menu{
+    border: 1px solid black;
+    width: 65%;
+    height: 200px;
+}
+.trip-menu h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+.trip-search{
+    border: 1px solid yellow;
+    width: 100%;
+    height: 50px;
+}
+
+
+
+
