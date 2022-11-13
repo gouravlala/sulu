@@ -64,9 +64,6 @@
     display: flex;
     align-items: center;
     justify-content: center; 
-    background-blend-mode:darken;
-
-    
 }
 .trip-menu{
     border: 1px solid transparent;
@@ -140,4 +137,160 @@
 }
 #search button:hover{
     background-color: rgb(3, 95, 131);
+}
+
+
+/* ............................... */
+.slider{
+    width: 90%;
+    margin: auto;
+    height: 200px;
+    display: flex;
+    overflow-x:auto;
+    overflow-y: hidden;
+    gap: 40px;
+    margin-top: 30px;
+}
+.slide{
+    width: 200px;
+    flex-shrink: 0;
+    height: auto;
+    border-radius: 0px;
+    border: 1px solid black;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* .slide img{
+    width: 0%;
+    height: 0%;
+    border-radius: 30px;
+} */
+
+
+/* ............................ */
+.heading{
+    font-weight: 300;
+    color: rgb(39, 39, 39);
+}
+.destination{
+    border: 1px solid transparent;
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+}
+#head-destination{
+    margin-left: 5%;
+}
+#o1{
+    background-image: url("https://tourism.gov.in/sites/default/files/styles/division_guid/public/2020-02/travel-tourism.jpg?itok=k9LBR0sT");
+}
+
+#o2{
+    background-image: url("https://visitqatar.com/content/dam/press-releases/2021/2021-07-29-summer-packages-prl/The-Ritz-Carlton-Pool.jpg/jcr:content/renditions/small-800px.jpeg");
+}
+#o3{
+    background-image: url("https://visitqatar.com/content/dam/photos/destination-images/urban-lifestyle/hotels/banana-island-resort-doha/2018-12-03--Hotels--Banana%20Island%20Resort%20Doha--0005.jpg/jcr:content/renditions/small-800px.jpeg");
+}
+#o4{
+    background-image: url("https://tourism.gov.in/sites/default/files/styles/division_guid/public/2020-02/mot_hotel.jpeg?itok=qcxdSR95");
+}
+#o5{
+    background-image: url("https://visitqatar.com/content/dam/visitqatar/continue-to-explore/things-to-do/shopping-in-qatar.jpg/jcr:content/renditions/tiny-480px.jpeg");
+}
+#o6{
+    background-image: url("https://imgcld.yatra.com/ytimages/image/upload/t_seo_Magnum_w_373_h_248_c_fill_g_auto_q_auto:good_f_jpg/v1466686625/Ladakh_1466686621.jpg");
+}
+#o7{
+    background-image: url("https://imgcld.yatra.com/ytimages/image/upload/t_seo_Magnum_w_373_h_248_c_fill_g_auto_q_auto:good_f_jpg/v1433922285/Hampi_14.jpg");
+}
+#o8{
+    background-image: url("https://imgcld.yatra.com/ytimages/image/upload/t_seo_Magnum_w_269_h_170_c_fill_g_auto_q_auto:good_f_jpg/v1465795596/Manali_Activities_to_do_Backpacking_a_Great_Himalayan_National_Park.jpg");
+}
+#o9{
+    background-image: url("https://imgcld.yatra.com/ytimages/image/upload/t_seo_Magnum_w_140_h_140_c_fill_g_auto_q_auto:good_f_jpg/v6767708478/Hotel/Kufri/00197753/Facade_Kp3XEr.jpg");
+}
+#o10{
+    background-image: url("https://imgcld.yatra.com/ytimages/image/upload/t_seo_Magnum_w_140_h_140_c_fill_g_auto_q_auto:good_f_jpg/v3549664430/Hotel/00198028/IMG20220530101121_01_pTwTCu.jpeg");
+}
+.place-offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(2, 55, 116);
+    border: 0px;
+}
+
+
+/* ....................... */
+
+
+
+.management{
+    width: 90%;
+    height: 350px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+}
+.community{
+    border: 1px solid transparent;
+    width: 30%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 6px;
+}
+.community h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.community>div{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    margin-top: 20px;
+    height: 60%;
+    gap: 20px;
+
+}
+.response{
+    color: rgb(100, 98, 98);
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.response img{
+    width: 40%;
+    height: 40%;
+}
+
+.community-guide{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    height: 100%;
+}
+
+.place-community{
+    height: 150px;
+}
+
+
+
+/* ................... */
+
+.feture{
+    border: 1px solid black;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
 }
